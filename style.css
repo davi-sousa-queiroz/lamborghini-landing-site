@@ -260,3 +260,64 @@ h3 {
 .aventador-para:hover {
     color: black;
 }
+
+.footer {
+    height: 100vh;
+    width: 100%;
+    background-image: url(static/footer.jpg);
+    background-size: contain;
+    background-position: center;
+    border-top: 5px solid goldenrod;
+    border-bottom: 5px solid goldenrod;
+}
+
+.unleash {
+    font-size: 125px;
+    color: rgb(255, 255, 255);
+    font-family: "Didot", "Bodoni Moda", serif;
+    text-shadow: 0px 0px 30px black;
+    padding-top: 15px;
+    margin-left: 30px;
+    text-shadow: 0px 0px 5px black;
+    opacity: 0;
+    
+    /* Link the animation to the scroll position */
+    animation: fadeDrop linear both;
+    animation-timeline: view();
+    
+    /* Adjusts WHEN the animation starts and ends */
+    /* entry 0% = bottom of screen, entry 100% = fully visible */
+    animation-range: entry 0% entry 100%; 
+
+    max-width: 700px;
+}
+
+@keyframes fadeDrop {
+    from {
+        opacity: 0;
+        transform: translateY(-150px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+
+}
+
+.lambo-link {
+    margin-left: 70%;
+    margin-top: 300px;
+    padding: 15px 50px;
+    font-size: 25px;
+    font-weight: 0;
+    background-color: rgba(255, 255, 255, 0.112);
+    color: #ffffff;
+    border-radius: 117px;
+    border: 2px solid goldenrod;
+}
+
+.lambo-link:hover {
+    background-color: rgb(118, 90, 19);
+    border: 2px solid rgb(0, 0, 0);
+    color: rgb(0, 0, 0)
+}
