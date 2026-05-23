@@ -1,4 +1,4 @@
-# 🏎️ Lamborghini Website (May 17th - 23rd 2026)
+# 🏎️  Lamborghini Website (May 17th - 23rd 2026) 💨
 
 A Lamborghini inspired landing page built with HTML and CSS.
 
