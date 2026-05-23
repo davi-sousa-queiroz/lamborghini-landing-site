@@ -1,8 +1,10 @@
-# 🏎️ Lamborghini Website
+# 🏎️ Lamborghini Website (May 17th - 23rd 2026)
 
 A Lamborghini inspired landing page built with HTML and CSS.
 
 What started as "I'll make a quick car website before bed" somehow turned into a full multi-section project featuring the Huracán, Aventador, custom animations, luxury-inspired design, and enough CSS to make me question my sanity.
+
+Here's the website link: https://davi-sousa-queiroz.github.io/lamborghini-landing-site/
 
 ---
 
